@@ -7,14 +7,19 @@ SUPERUSER_EMBEDDED := true
 PRODUCT_PACKAGE_OVERLAYS += vendor/du/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
+    About \
+    Apollo \
     BluetoothExt \
     CellBroadcastReceiver \
+    DU-Walls \
+    EVWidgets \
+    HostsFileManager \
     libemoji \
     LatinImeDictionaryPack \
+    LockClock \
     Microbes \
     Stk \
-    su \
-    Torch
+    su
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
