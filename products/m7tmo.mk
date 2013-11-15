@@ -3,6 +3,9 @@ $(call inherit-product, vendor/du/configs/gsm.mk)
 
 $(call inherit-product, vendor/du/configs/common.mk)
 
+## overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/du/overlay/m7
+
 # Inherit device configuration
 $(call inherit-product, device/htc/m7tmo/full_m7tmo.mk)
 
