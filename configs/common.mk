@@ -19,6 +19,7 @@ PRODUCT_PACKAGES += \
     LatinImeDictionaryPack \
     LockClock \
     Microbes \
+    SoundRecorder \
     Stk \
     su
 
