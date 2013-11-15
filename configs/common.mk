@@ -11,7 +11,8 @@ PRODUCT_PACKAGES += \
     Apollo \
     BluetoothExt \
     CellBroadcastReceiver \
-    DU-Walls \
+    DashClock \
+    DirtWalls \
     EVWidgets \
     HostsFileManager \
     libemoji \
