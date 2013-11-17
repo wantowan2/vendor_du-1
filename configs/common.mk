@@ -21,7 +21,8 @@ PRODUCT_PACKAGES += \
     Microbes \
     SoundRecorder \
     Stk \
-    su
+    su \
+    Torch
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
