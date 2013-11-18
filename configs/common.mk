@@ -94,6 +94,11 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
+# DU Host Files
+PRODUCT_COPY_FILES += \
+    vendor/du/prebuilt/common/etc/hosts.alt:system/etc/hosts.alt \
+    vendor/du/prebuilt/common/etc/hosts.og:system/etc/hosts.og
+
 # World APNs
 PRODUCT_COPY_FILES += \
     vendor/du/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
