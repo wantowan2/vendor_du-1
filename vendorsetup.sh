@@ -1,0 +1,2 @@
+add_lunch_combo du_m7tmo-userdebug
+add_lunch_combo du_skyrocket-userdebug
